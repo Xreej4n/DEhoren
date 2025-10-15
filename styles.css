@@ -1,0 +1,120 @@
+
+
+#header {
+    background-color: #e2c8f8;
+    border-radius: 15px;
+    margin-top:-5px;
+
+    padding-top:20px;
+    width:100vw;
+}
+body {
+    margin-left: 0;
+    background-color: #F4EAFB;
+    color:#2B2233;
+    
+}
+
+h1 {
+
+    border-radius: 15px;
+    color: #400868;   
+    margin-left: 10px;
+    margin-top:-5px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    width:100vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10000;
+    font-style: normal;
+}
+
+h4,a,a:visited {
+    text-decoration: none;
+    color: #6100d8;
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 100%; 
+   border-bottom: 1px solid #C9B5E1; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+    
+}
+
+h4 span {
+   background-color: #F4EAFB;
+    padding:0 10px; 
+    
+}
+
+p,.track-number {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+
+}
+
+.buttons,.track {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 17px;
+    border: 2px solid #8e499a;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #ae63bb;
+    color: #e4dfe7;
+}
+
+.buttons:active {
+    background-color: #ae5bbb;
+    color: #e4dfe7;
+}
+
+.track,.track:active {
+    margin-right: 10px;
+    margin-bottom: 20px;   
+    border-color: #54c3f0; 
+}
+.track:hover,.active {
+    background-color: #3bc2f7;
+    color: #e4dfe7;
+}
+.track:active {
+    background-color: #1db8f5;
+    color: #e4dfe7;
+}
+
+
+.plyr--audio {
+  background-color: #EADAF7 ;
+  padding: 6px;
+  
+}
+
+.player-div {
+    width:100vw;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px; 
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;  
+    overflow-y: auto;    
+    height: calc(100vh - 70px); 
+}
