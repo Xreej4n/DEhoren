@@ -41,12 +41,14 @@ h4,a,a:visited {
    border-bottom: 1px solid #C9B5E1; 
    line-height: 0.1em;
    margin: 10px 0 20px; 
+   background-color: #F4EAFB;
     
 }
 
 h4 span {
    background-color: #F4EAFB;
     padding:0 10px; 
+
     
 }
 
@@ -60,7 +62,7 @@ p,.track-number {
 
 }
 
-.buttons,.track {
+.buttons,.track,.video {
     display: inline-block;
     margin-left: 10px;
     padding: 17px;
@@ -79,16 +81,16 @@ p,.track-number {
     color: #e4dfe7;
 }
 
-.track,.track:active {
+.track,.track:active,.video,.video:active {
     margin-right: 10px;
     margin-bottom: 20px;   
     border-color: #54c3f0; 
 }
-.track:hover,.active {
+.track:hover,.active,.video:hover {
     background-color: #3bc2f7;
     color: #e4dfe7;
 }
-.track:active {
+.track:active,.video:active {
     background-color: #1db8f5;
     color: #e4dfe7;
 }
@@ -117,6 +119,7 @@ p,.track-number {
     padding-bottom: 60px;  
     overflow-y: auto;    
     height: calc(100vh - 70px); 
+    
 }
 
 footer {
